@@ -1,0 +1,75 @@
+body {
+    font-family: 'Inter', 'Inter'; /* Yazı tipi ailesi */
+    font-size: 14px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #6b00ff; /* Web sayfasının arka plan rengi */
+    color: #00ffea; /* Metin rengi */
+}
+
+h1 {
+    color: #a80000; /* Başlık rengi */
+    font-size: 24px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+
+
+h2 {
+    color: #00a800; /* yan Başlıkta rengi */
+    font-size: 24px; /* yan Başlıkta yazı tipi boyutu */
+    font-family: Georgia, serif; /*yan başlıkta kullanılan yazı tipi ailesi */
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h2:hover {
+    animation: color-change 3s infinite;
+}
+
+
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: #00a800;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h3:hover {
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+      color: #a80000;
+    }
+  
+      50% {
+        color: #00ffea;
+    }
+  
+    100% {
+      color: #a80000;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
